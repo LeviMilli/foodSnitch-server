@@ -3,9 +3,6 @@ const router = express.Router()
 
 // ℹ️ Handles password encryption
 const bcrypt = require("bcrypt");
-var cors = require('cors')
-var app = express()
-app.use(cors())
 
 
 // Require the User model in order to interact with the database
