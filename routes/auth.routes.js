@@ -10,8 +10,13 @@ const UserModel = require("../models/User.model");
 
 // Require necessary (isLoggedOut and isLoggedIn) middleware in order to control access to specific routes
 
+router.all('/', function(req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Headers", "X-Requested-With");
+  next()
+});
 
-router.post('/signup', (req, res) => {
+router.post('/signup', (req, res, next) => {
   const {username, email, password } = req.body;
   console.log(username, email, password);
    // -----SERVER SIDE VALIDATION ----------
