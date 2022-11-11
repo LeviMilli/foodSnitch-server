@@ -1,6 +1,8 @@
 const express = require('express')
 const router = express.Router()
-
+var cors = require('cors')
+var app = express()
+app.use(cors())
 
 let RecipeModel = require("../models/Recipe.model")
 let MyRecipeModel = require("../models/MyRecipe.model")

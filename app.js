@@ -15,7 +15,12 @@ const cors = require('cors');
 
 const session = require('express-session');
 const MongoStore = require('connect-mongo');
-app.use(cors())
+var corsOptions = {
+  origin: 'https://foodsdsnitch.netlify.app',
+  optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
+}
+
+
 
 
 
