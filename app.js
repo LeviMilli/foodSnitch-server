@@ -15,7 +15,9 @@ const cors = require('cors')
 const session = require('express-session');
 const MongoStore = require('connect-mongo');
 
-app.use(cors())
+app.use(cors({
+  origin: 'https://foodsdsnitch.netlify.app'
+}));
 
 app.use(session({
   secret: 'SQU14TL3', //Ideally this will be in you env file
