@@ -3,7 +3,7 @@ const app = require("./app");
 const cors = require('cors');
 
 app.use(cors({
-  origin: "https://foodsdsnitch.netlify.app/",
+  origin: "*",
 }))
 
 
