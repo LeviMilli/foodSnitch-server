@@ -8,9 +8,6 @@ require("./db");
 // Handles http requests (express is node js framework)
 // https://www.npmjs.com/package/express
 const express = require("express");
-
-
-// var cors = require('cors')
 const app = express()
 
 
