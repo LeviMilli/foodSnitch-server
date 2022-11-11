@@ -12,7 +12,7 @@ const express = require("express");
 const app = express();
 var cors = require('cors');
 var corsOptions = {
-  origin: 'https://foodsdsnitch.netlify.app/',
+  origin: 'https://foodsdsnitch.netlify.app',
   optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
 }
 const session = require('express-session');
