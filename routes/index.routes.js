@@ -1,5 +1,7 @@
 const router = require("express").Router();
 const authRoutes = require("./auth.routes");
+const cors = require('cors');
+app.use(cors())
 
 /* GET home page */
 router.get("/", (req, res, next) => {
