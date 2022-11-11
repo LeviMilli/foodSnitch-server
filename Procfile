@@ -1,1 +1,1 @@
-web: node src/foodsnitch.js
+web: npm run dev
