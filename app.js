@@ -10,14 +10,17 @@ require("./db");
 const express = require("express");
 
 const app = express();
-const cors = require('cors')
-
+var cors = require('cors');
+var corsOptions = {
+    origin: '*',
+    optionsSuccessStatus: 200,
+  }
 const session = require('express-session');
 const MongoStore = require('connect-mongo');
 
-app.use(cors({
-  origin: '*'
-}));
+app.use(cors(corsOptions));
+app.use(express.json())
+
 
 app.use(session({
   secret: 'SQU14TL3', //Ideally this will be in you env file
