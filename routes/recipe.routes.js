@@ -2,7 +2,6 @@ const express = require('express')
 const router = express.Router()
 
 
-
 let RecipeModel = require("../models/Recipe.model")
 let MyRecipeModel = require("../models/MyRecipe.model")
 

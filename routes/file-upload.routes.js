@@ -1,7 +1,6 @@
 const express = require('express');
 const router  = express.Router();
 
-
 // include CLOUDINARY:
 const uploader = require('../config/cloudinary.config');
 
