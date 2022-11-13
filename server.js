@@ -4,8 +4,9 @@ const apper = express();
 const cors = require('cors');
 const PORT = process.env.PORT || 5005;
 var corsOptions = {
-  origin: '*',
-  optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
+  origin: 'https://foodsdsnitch.netlify.app/',
+  optionsSuccessStatus: 200,
+  credentials: true, origin: true
 }
 
 apper.use(cors(corsOptions))
