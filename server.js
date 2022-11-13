@@ -3,7 +3,12 @@ const express = require("express");
 const apper = express();
 const cors = require('cors');
 const PORT = process.env.PORT || 5005;
-apper.use(cors())
+var corsOptions = {
+  origin: '*',
+  optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
+}
+
+apper.use(cors(corsOptions))
 
 // tried https://foodsdsnitch.netlify.app/ as well
 
