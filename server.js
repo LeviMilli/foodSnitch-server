@@ -3,13 +3,16 @@ const express = require("express");
 const apper = express();
 const cors = require('cors');
 const PORT = process.env.PORT || 5005;
-var corsOptions = {
-  origin: 'https://foodsdsnitch.netlify.app/',
-  optionsSuccessStatus: 200,
-  credentials: true, origin: true
-}
 
-apper.use(cors(corsOptions))
+
+apper.use(cors())
+
+apper.use(function(req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header('Access-Control-Allow-Methods', 'DELETE, PUT, GET, POST');
+  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+  next();
+});
 
 // tried https://foodsdsnitch.netlify.app/ as well
 
