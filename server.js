@@ -1,9 +1,9 @@
-const apper = require("./app");
+const app = require("./app");
 const express = require("express");
-const app = express();
+const apper = express();
 const cors = require('cors');
 const PORT = process.env.PORT || 5005;
-app.use(cors())
+apper.use(cors())
 
 // tried https://foodsdsnitch.netlify.app/ as well
 
@@ -14,6 +14,6 @@ app.use(cors())
 
 
 
-apper.listen(PORT, () => {
+app.listen(PORT, () => {
   console.log(`Server listening on port http://localhost:${PORT}`);
 });
