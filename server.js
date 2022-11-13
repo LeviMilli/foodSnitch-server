@@ -1,10 +1,6 @@
 const app = require("./app");
 
-const cors = require('cors');
 
-app.use(cors({
-  origin: "*",
-}))
 // tried https://foodsdsnitch.netlify.app/ as well
 
 

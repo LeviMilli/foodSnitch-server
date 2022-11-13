@@ -10,18 +10,16 @@ require("./db");
 const express = require("express");
 const app = express();
 const cors = require('cors');
-
-app.use(cors({
-  origin: "*",
-}))
+var corsOptions = {
+  origin: '*',
+  optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
+}
+app.use(cors(corsOptions))
 
 
 const session = require('express-session');
 const MongoStore = require('connect-mongo');
-var corsOptions = {
-  origin: 'https://foodsdsnitch.netlify.app',
-  optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
-}
+
 
 
 
