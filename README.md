@@ -22,8 +22,13 @@ Search bar using Filter and a deep clone to be able to iterate through the list 
 Auth is really a straight forward process. Once everything is set up correctly, the app can be used and redirected accordingly. A good user flow is important to avoid confusion. The app should be simple, yet useful and efficient. 
 
 ## Other Repos
-https://github.com/LeviMilli/Codewars
-https://github.com/LeviMilli/Crypto-Wallet-project
-https://github.com/LeviMilli/mewtwo-game
+Take a look at these couple repos that I have in my portfolio:
+
+**CryptoTracker Crypto wallet:** https://github.com/LeviMilli/Crypto-Wallet-project
+
+**MewTwos Mad Dash Canvas HTML game:** https://github.com/LeviMilli/mewtwo-game
+
+**The Notorius Codewars:** https://github.com/LeviMilli/Codewars
+
 
 
