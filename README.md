@@ -8,7 +8,7 @@ Users can view recipes that are populated from a seeded database and pick and ch
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS, JavaScript, React, MongoDB, Express
+**Tech used: HTML, CSS, JavaScript, React, MongoDB, Express, Babel, Bootstrap, Node.js
 
 Full CRUD is ustilized in app. Each page is comprosed of react components and uses app context where it makes sense. Most states where set by context and a few function that were more globally used. The database was seeded using Mongo Atlas and node. Each page diplays object from database using arrays methods such as Map and Filter using react states. Auth was done by creating models of users and setting cookies and sessions. Personal recipes were done by references User and Recipe models.
 
