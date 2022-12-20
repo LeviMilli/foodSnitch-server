@@ -2,6 +2,9 @@
 // https://www.npmjs.com/package/mongoose
 const mongoose = require("mongoose");
 const PORT = process.env.PORT || 5005;
+// const app = require("./app");
+const express = require("express");
+const app = express();
 
 
 // ℹ️ Sets the MongoDB URI for our app to have access to it.
