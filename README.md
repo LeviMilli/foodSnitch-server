@@ -1,8 +1,8 @@
-# foodSnitch
+# foodSnitch https://scarlet-elk-gown.cyclic.app/
 A user based fullstack web application that allows login and personal saved recipes.
 
 Users can view recipes that are populated from a seeded database and pick and choose which recipes to add to thier own personal list. Users also have the ability to add and modify thier own recipes for a convient way to store great recipes that are available at anytime.
-**Link to project:** https://foodsnitch.herokuapp.com/
+**Link to project:** https://scarlet-elk-gown.cyclic.app/
 
 ![alt tag](https://media.giphy.com/media/CONSF5qegQrLdmvG45/giphy.gif)
 
