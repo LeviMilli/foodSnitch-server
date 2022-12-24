@@ -108,7 +108,9 @@ router.get('/myrecipe', (req, res) => {
  router.patch('/myrecipe/:id', (req, res) => {
      let id = req.params.id
      const {title, image, readyInMinutes} = req.body;
-     MyRecipeModel.findByIdAndUpdate(id.RecipeId, {$set: {title: title, image: image, readyInMinutes: readyInMinutes}}, {new: true}).populate("RecipeId")
+     MyRecipeModel.findByIdAndUpdate(id.RecipeId, 
+          {$set: 
+               {title: title, image: image, readyInMinutes: readyInMinutes}}, {new: true}).populate("RecipeId")
            .then((response) => {
                 res.status(200).json(response)
            })
