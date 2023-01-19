@@ -8,21 +8,12 @@ require("./db");
 // Handles http requests (express is node js framework)
 // https://www.npmjs.com/package/express
 const express = require("express");
+
 const app = express();
 
-
-
-
-
-
 const session = require('express-session');
+
 const MongoStore = require('connect-mongo');
-
-
-
-
-
-
 
 app.use(session({
   secret: 'SQU14TL3', //Ideally this will be in you env file
