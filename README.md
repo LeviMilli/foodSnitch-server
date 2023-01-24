@@ -24,11 +24,13 @@ Auth is really a straight forward process. Once everything is set up correctly, 
 ## Other Amazing Repos
 Take a look at these couple repos that I have in my portfolio:
 
-**CryptoTracker Crypto wallet:** https://github.com/LeviMilli/Crypto-Wallet-project
+**Professional Portfolio:** https://levi-milli.netlify.app/
+
+**CryptoTrove** https://github.com/LeviMilli/CryptoTrove
 
 **MewTwo's Mad Dash Canvas HTML game:** https://github.com/LeviMilli/mewtwo-game
 
-**The Notorius Codewars:** https://github.com/LeviMilli/Codewars
+**Codewars updated daily:** https://github.com/LeviMilli/Codewars
 
 
 
